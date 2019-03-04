@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <!--=========================*
+                Met Data
+    *===========================-->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Epika CRM">
+
+    <!--=========================*
+              Titulo de la pagina
+    *===========================-->
+    <title>Inicio de sesión | EPIKA</title>
+
+    <!--=========================*
+            Bootstrap Css
+    *===========================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--=========================*
+              My CSS
+    *===========================-->
+    <link rel="stylesheet" href="css/loginStyle.css">
+
+
+    <!--=========================*
+            Font Awesome
+    *===========================-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--=========================*
+             Themify Iconos
+    *===========================-->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!--=========================*
+            Google Fonts
+    *===========================-->
+
+    <!-- Montserrat USE: font-family: 'Montserrat', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+          rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="login-bg">
+                    <div class="login-overlay"></div>
+                      <div class="login-left">     
+
+                      </div>
+                  
+                </div>
+
+                <!--START: Contenedor de formulrio de login-->
+                <div class="login-form">
+                    <div class="login-logo-epika">
+                        <img src="img/logo-epika.jpg" width="151" height="179">
+                    </div>
+                    <form action="index.html">
+                        <div class="login-form-body">
+                            <div class="form-gp">
+                                <label for="login-email">Correo electrónico</label>
+                                <input type="email" id="login-email">
+                                <i class="ti-email"></i>
+                            </div>
+                            <div class="form-gp">
+                                <label for="login-password">Contraseña</label>
+                                <input type="password" id="login-password">
+                                <i class="ti-lock"></i>
+                            </div>
+
+                            <div class="row mb-4 rmber-area">
+                                <div class="col-6">
+                                    <div class="custom-control custom-checkbox primary-checkbox mr-sm-2">
+                                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                        <label class="custom-control-label" for="customControlAutosizing">Recordar contraseña</label>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <a href="#" class="text-primary">Olvidaste tu contraseña?</a>
+                                </div>
+                            </div>
+                            <div class="submit-btn-area">
+                                <button id="form_submit"  type="submit" class="btn_login btn-primary">entrar <i class="ti-arrow-right"></i></button>
+                                <div class="login-other mt-4 ">
+                                        <a class="google-login" href="#">
+                                            <span class="login_txt">Iniciar sesión con Google</span>  
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                </div>
+                            </div>
+                            <div class="form-footer text-center mt-5">
+                                <p class="text-muted">Registrar cuenta <a href="registro.html" class="text-primary">aquí</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--START: Contenedor de formulrio de login-->
+
+            </div>
+        </div>
+    </div>
+
+
+<!--=========================*
+            Scripts
+*===========================-->
+
+<!-- Jquery Js -->
+<script src="js/jquery.min.js"></script>
+<!-- bootstrap 4 js -->
+
+
+
+<script type="text/javascript">
+    function got_index(){
+        window.location.href = "index.html";
+    }
+       $('.form-gp input').on('focus', function() {
+        $(this).parent('.form-gp').addClass('focused');
+    });
+    $('.form-gp input').on('focusout', function() {
+        if ($(this).val().length === 0) {
+            $(this).parent('.form-gp').removeClass('focused');
+        }
+    });
+</script>
+
+</body>
+</html>

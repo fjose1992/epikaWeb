@@ -1,0 +1,276 @@
+
+/* ========================================= */
+/* 		   		HOJA DE ESTILOS: LOGIN	 			 */
+/* ========================================= */
+body{
+  margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+
+
+.login-bg,
+.register-bg {
+  height: 100vh; /*altura del viewport para la imagen*/
+  background: url(../img/fondo-login.jpg) no-repeat;
+  background-size: cover;
+  width: 470px;
+  float: left;
+  position: relative;
+  }
+
+.register-bg {
+  background: url(../img/fondo-registro.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/*Esconde el texto del btn cuando el width este por debajo de 767px*/
+@media only screen and (max-width: 767px) {
+  .login_txt {
+    display: none; } 
+  }
+
+/*Un overlay con una capa de .36% de alfa*/
+.login-overlay {
+  height: 100%;
+  display: block;
+  position: absolute;
+  width: 100%;
+  background: rgba(29, 29, 38, 0.36);
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+.login-left {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; 
+}
+
+.login-left p {
+  font-size: 15px;
+  color: #fff;
+  width: 82%;
+  margin: 50px auto; 
+}
+
+.login-left a {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 30px; 
+}
+
+.login-form {
+  width: calc(100% - 470px); /*Calcula el ancho, tomando como referencia el bg de la imagen */
+  float: left;
+  position: relative; 
+}
+
+
+.login-form form {
+  position: absolute;
+  top: 60%;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 18px 37.7px 15.3px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 18px 37.7px 15.3px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 18px 37.7px 15.3px rgba(0, 0, 0, 0.07); 
+}
+
+.login-form .login-logo-epika{
+  width: 50%;
+  margin: 6% auto;
+
+
+}
+
+.login-form .login-logo-epika img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-form form h2 {
+  color: #444;
+  font-weight: 500; 
+}
+
+.login-form form .input-group {
+  padding-bottom: 12px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.4); 
+}
+
+.login-area {
+  background: #f9f9f9; }
+
+.login-form-body {
+  padding: 50px; }
+
+.form-gp {
+  margin-bottom: 25px;
+  position: relative; }
+
+.form-gp label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #b3b2b2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: 12px; }
+
+/*Esta clase es insertada con jQuery */
+.form-gp.focused label {
+  top: -15px;
+  color: #4327B7; }
+
+.form-gp input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 12px; }
+
+
+.form-gp i {
+  position: absolute;
+  right: 5px;
+  bottom: 15px;
+  color: #4327B7;
+  font-size: 16px; }
+
+/*Remenber area*/
+.rmber-area {
+  font-size: 13px; }
+
+.submit-btn-area {
+  text-align: center; }
+
+.submit-btn-area button {
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.submit-btn-area button i {
+  margin-left: 15px;
+  -webkit-transition: margin-left 0.3s ease 0s;
+  transition: margin-left 0.3s ease 0s; }
+
+.submit-btn-area button:hover i {
+  margin-left: 20px; }
+
+.login-other a {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: 43px;
+  line-height: 43px;
+  border-radius: 40px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-weight: 600;
+  font-size: 12px;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.07); }
+
+.login-other a i {
+  margin-left: 5px; }
+
+.login-other a.google-login {
+  margin: 0 auto;
+  background: #DD4B39;
+  color: #fff; }
+
+.login-other a.google-login:hover {
+  box-shadow: 0 5px 15px rgba(251, 87, 87, 0.38); }
+
+.form-footer a {
+  margin-left: 5px; }
+
+  .text-primary {
+  color: #4327B7 !important; }
+
+/* Media Screen: */
+@media only screen and (max-width: 1100px) {
+  .login-form {
+    float: left;
+    width: 100%; }
+
+  .login-form form {
+    padding: 50px 30px 20px;
+    position: static;
+    transform: inherit;
+    width: 100%; }
+
+  .credentials-form form {
+    width: 90%;
+    padding: 0;
+    position: absolute;
+    transform: translate(-50%, -50%); }
+
+  .login-bg,
+  .register-bg {
+    display: none }
+
+  .login-left {
+    display: block;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: inherit;
+    z-index: 10;
+    padding: 30px; } }
+
+.btn_login {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+ }
+
+.btn_login i {
+  margin-right: 5px;
+  vertical-align: initial; 
+}
+
+.btn_login.btn-primary {
+  background-color: #4327B7;
+  border-color: #4327B7; 
+}
+
+.btn_login.btn-primary:hover {
+  background-color: #341e8d;
+  border-color: #341e8d; 
+}
+
+
+/* ============================ */
+/*            End Login
+/* ============================ */
+
+
