@@ -9,15 +9,16 @@ function recargaPagina(urlPage, tagContent){
         dataType:"html",
         data:$(this).serialize(),
         beforeSend:function(){
-            //imagenesCarga();
+            $(".loader").show();
         },
         error: function(response, quepaso, otroobj){
             alert('error recargando la pagina');
 //            console.log(response);
         },
         success:function(response){
-          
-            $(tagContent).html(response);                        
+            $(".loader").fadeOut('slow');
+            $(tagContent).html(response);
+            console.log("Llegoo")                        
            
         }
     });
