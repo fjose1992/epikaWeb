@@ -152,7 +152,7 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="assets/img/avtar/05.jpg" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/05.jpg" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
@@ -173,7 +173,8 @@
                                     <a href="#" class="d-flex align-items-center ml-3"><i class="ti ti-comment mr-2"></i><span>Responder</span></a>
                                 </div>
                                 <div class="col">
-                                    <a href="#" class="badge badge-pill btn-primary float-right mr-3 ">#A2F</a>
+                                    <a href="#" class="badge badge-pill btn-primary float-right mr-3" data-toggle="modal" data-target="#defaultModal">#A2F</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -200,7 +201,7 @@
                             </div>
                             <div class="card-body mt-0">
                                 <div class="">
-                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                                             tempor incididunt ut...<a class="btn btn-square  btn-inverse-primary btn-xs ml-1" href="#">ver más</a>  </p>
                                 </div>
                             </div>
@@ -363,9 +364,11 @@
                     </div>
             </div>
     </div>        
-</div>
-    
+</div>    
 <!-- END: ACTIVIDAD SOCIAL -->
+
+
+
 
 <script type="text/javascript">
     graficasReporteCotizaciones()
