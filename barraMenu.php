@@ -1,6 +1,6 @@
 <div class="sidebar-nav scrollbar scroll_light">
     <ul class="metismenu " id="sidebarNav">        
-        <li>
+        <li class="active">
             <a class="has-arrow" href="#" aria-expanded="true" > 
                 <i class="nav-icon ti ti-home"></i>
                 <span class="nav-title">Home</span>                
