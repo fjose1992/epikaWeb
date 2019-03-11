@@ -189,7 +189,7 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="http://www.symbiosis.ae/medicalcentre/images/doctors/Dr_Ateeque1.png" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/11.png" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
@@ -200,7 +200,8 @@
                             </div>
                             <div class="card-body mt-0">
                                 <div class="">
-                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. </p>
+                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut...<a class="btn btn-square  btn-inverse-primary btn-xs ml-1" href="#">ver más</a>  </p>
                                 </div>
                             </div>
                             <div class="row justify-content-between mt-2 mb-3">
@@ -208,7 +209,7 @@
                                     <a href="#" class="d-flex align-items-center ml-3"><i class="ti ti-comment mr-2"></i><span>Responder</span></a>
                                 </div>
                                 <div class="col">
-                                    <a href="#" class="badge badge-pill btn-primary float-right mr-3 ">#A2F</a>
+                                    <a href="#" class="badge badge-pill btn-primary float-right mr-3 ">#RQ2</a>
                                 </div>
                             </div>
                         </div>
@@ -223,18 +224,20 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="assets/img/avtar/03.jpg" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/13.jpg" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
-                                        <h4 class="mb-0">Theron Trump</h4>
-                                        <small class="d-block">Hace 36 min</small>
+                                        <h4 class="mb-0">Rafael Dos Santos</h4>
+                                        <small class="d-block">Hace 2 h</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body mt-0">
                                 <div class="">
-                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. </p>
+                                            <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. </p>
                                 </div>
                             </div>
                             <div class="row justify-content-between mt-2 mb-3">
@@ -263,12 +266,12 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="assets/img/avtar/03.jpg" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/12.jpg" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
-                                        <h4 class="mb-0">Theron Trump</h4>
-                                        <small class="d-block">Hace 36 min</small>
+                                        <h4 class="mb-0">Dr. Carlos Barreto</h4>
+                                        <small class="d-block">Hace h h</small>
                                     </div>
                                 </div>
                             </div>
@@ -298,11 +301,11 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="assets/img/avtar/03.jpg" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/03.jpg" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
-                                        <h4 class="mb-0">Theron Trump</h4>
+                                        <h4 class="mb-0">Ana Castillo</h4>
                                         <small class="d-block">Hace 36 min</small>
                                     </div>
                                 </div>
@@ -333,7 +336,7 @@
                                 <div class="col media p-3 d-flex align-items-center">
                                     <div class="dot-online">
                                         <div class="bg-img">
-                                            <img class="img-fluid" src="assets/img/avtar/03.jpg" alt="listwidget-img">
+                                            <img class="img-fluid" src="img/avtar/09.jpg" alt="listwidget-img">
                                         </div>
                                     </div>
                                     <div class="media-body ml-2">
@@ -344,7 +347,8 @@
                             </div>
                             <div class="card-body mt-0">
                                 <div class="">
-                                            <p>Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. </p>
+                                            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
                                 </div>
                             </div>
                             <div class="row justify-content-between mt-2 mb-3">
@@ -362,5 +366,9 @@
 </div>
     
 <!-- END: ACTIVIDAD SOCIAL -->
+
+<script type="text/javascript">
+    graficasReporteCotizaciones()
+</script>
 
 
